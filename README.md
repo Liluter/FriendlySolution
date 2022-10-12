@@ -1,26 +1,42 @@
-# KarolAwdziewicz
+# Friendly Solution - code task
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.18.
+## Instalation:
+Copy URL: 
+```
+https://github.com/Liluter/FriendlySolution.git
+```
+Create new folder on local enviroment. Switch to new folder 
+```
+$ cd [new-folder]
+```
+Next use copied URL with github command to clone this repo
+```
+$ git clone [URL]
+```
 
-## Development server
+And then need to install all dependemcies by 
+```
+$ npm install
+```
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+In case errors with leagacy dependencies add `npm install --legacy-peer-deps` option.
 
-## Code scaffolding
+To run on localhost 
+```
+$ ng serve
+```
+If everything is ok you can open your browser on localhost:4200 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Description / Usage
 
-## Build
+This is simple application to filter data of work orders by passing description fragments into input field.
+You can use Case-insensitive text.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Implementation
 
-## Running unit tests
+Data was deliver by static JavaScript Object so in asset folder the file with data was create as data.json
+Then with browser API fetch() method, simulate fetching data from a server.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
 ## Further help
 
